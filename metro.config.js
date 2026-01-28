@@ -1,4 +1,5 @@
 const {getDefaultConfig, mergeConfig} = require('@react-native/metro-config');
+const path = require('path');
 
 /**
  * Metro configuration
@@ -14,6 +15,18 @@ const config = {
       }
       return context.resolveRequest(context, moduleName, platform);
     },
+    // Exclude fabric components from being processed
+    blockList: [
+      /node_modules\/react-native-screens\/src\/fabric\/.*/,
+    ],
+  },
+  transformer: {
+    getTransformOptions: async () => ({
+      transform: {
+        experimentalImportSupport: false,
+        inlineRequires: true,
+      },
+    }),
   },
 };
 
