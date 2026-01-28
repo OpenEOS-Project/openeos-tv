@@ -148,4 +148,4 @@ export const API_CONFIG = {
 
 ## Lizenz
 
-Proprietär - OpenEOS
+AGPLv3
