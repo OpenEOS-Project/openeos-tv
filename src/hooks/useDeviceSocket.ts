@@ -16,7 +16,7 @@ export const useDeviceSocket = (): UseDeviceSocketReturn => {
   const [lastMessage, setLastMessage] = useState<BroadcastMessage | null>(null);
 
   const { deviceToken, status, organizationId } = useDeviceStore();
-  const { setIsConnected } = useDisplayStore();
+  const setStoreConnected = useDisplayStore(state => state.setIsConnected);
 
   const clearLastMessage = useCallback(() => {
     setLastMessage(null);
@@ -46,19 +46,19 @@ export const useDeviceSocket = (): UseDeviceSocketReturn => {
     socket.on('connect', () => {
       console.log('[Socket] Connected');
       setIsConnected(true);
-      setIsConnected(true);
+      setStoreConnected(true);
     });
 
     socket.on('disconnect', reason => {
       console.log('[Socket] Disconnected:', reason);
       setIsConnected(false);
-      setIsConnected(false);
+      setStoreConnected(false);
     });
 
     socket.on('connect_error', error => {
       console.log('[Socket] Connection error:', error.message);
       setIsConnected(false);
-      setIsConnected(false);
+      setStoreConnected(false);
     });
 
     // Broadcast message event
@@ -81,7 +81,7 @@ export const useDeviceSocket = (): UseDeviceSocketReturn => {
       socket.disconnect();
       socketRef.current = null;
     };
-  }, [deviceToken, status, organizationId, setIsConnected]);
+  }, [deviceToken, status, organizationId, setStoreConnected]);
 
   return {
     isConnected,
