@@ -48,14 +48,32 @@ npm start
 npm run android
 ```
 
-### Release Build
+### Release Build (lokal)
 
 ```bash
-# APK erstellen
+# APK erstellen (erfordert JDK 17)
 npm run android:release
 
 # APK liegt dann in:
 # android/app/build/outputs/apk/release/app-release.apk
+```
+
+### Release Build (GitHub Actions)
+
+Die APK wird automatisch via GitHub Actions gebaut:
+
+1. **Bei jedem Push** auf `main` oder `develop` Branch
+2. **Bei Pull Requests** auf `main`
+3. **Bei Tags** (`v*`) - APK wird automatisch als Release-Asset hochgeladen
+
+Die fertige APK findest du unter:
+- **Actions Tab** → Build auswählen → Artifacts → `app-release`
+- **Releases** (bei getaggten Versionen)
+
+```bash
+# Neues Release erstellen
+git tag v1.0.0
+git push origin v1.0.0
 ```
 
 ## FireTV Installation
