@@ -1,0 +1,151 @@
+{
+  "common": {
+    "loading": "Laden...",
+    "error": "Fehler",
+    "retry": "Erneut versuchen",
+    "back": "Zurück",
+    "cancel": "Abbrechen",
+    "confirm": "Bestätigen",
+    "save": "Speichern",
+    "settings": "Einstellungen",
+    "connected": "Verbunden",
+    "disconnected": "Getrennt",
+    "connecting": "Verbinde...",
+    "noData": "Keine Daten",
+    "refreshing": "Aktualisiere..."
+  },
+  "registration": {
+    "title": "Gerät registrieren",
+    "subtitle": "Scannen Sie den QR-Code mit der Admin-App oder geben Sie den Code im Web-Panel ein",
+    "deviceName": "Gerätename",
+    "deviceNamePlaceholder": "z.B. Küchen-Display 1",
+    "organizationSlug": "Organisations-Kürzel",
+    "organizationSlugPlaceholder": "z.B. mein-verein",
+    "register": "Registrieren",
+    "registering": "Registriere...",
+    "scanQrCode": "QR-Code scannen",
+    "orEnterCode": "oder Code eingeben",
+    "verificationCode": "Verifizierungscode",
+    "waitingForVerification": "Warte auf Verifizierung...",
+    "verificationHint": "Ein Administrator muss dieses Gerät im Web-Panel bestätigen",
+    "verified": "Gerät verifiziert!",
+    "blocked": "Gerät wurde blockiert",
+    "error": {
+      "invalidSlug": "Ungültiges Organisations-Kürzel",
+      "registrationFailed": "Registrierung fehlgeschlagen",
+      "networkError": "Netzwerkfehler"
+    }
+  },
+  "displayModes": {
+    "title": "Display-Modus wählen",
+    "subtitle": "Wählen Sie, was auf diesem Display angezeigt werden soll",
+    "menu": {
+      "label": "Speisekarte",
+      "description": "Zeigt Produkte und Kategorien an"
+    },
+    "kitchen": {
+      "label": "Küchen-Display",
+      "description": "Zeigt neue Bestellungen, Items als fertig markieren"
+    },
+    "delivery": {
+      "label": "Ausgabe-Display",
+      "description": "Zeigt fertige Bestellungen, Items als ausgegeben markieren"
+    },
+    "pickup": {
+      "label": "Abholung",
+      "description": "Große Anzeige fertiger Bestellnummern"
+    },
+    "sales": {
+      "label": "Kassen-Summe",
+      "description": "Tagesumsatz und Statistiken"
+    }
+  },
+  "menu": {
+    "title": "Speisekarte",
+    "noProducts": "Keine Produkte verfügbar",
+    "noCategories": "Keine Kategorien verfügbar",
+    "outOfStock": "Ausverkauft"
+  },
+  "kitchen": {
+    "title": "Küche",
+    "newOrders": "Neue Bestellungen",
+    "noOrders": "Keine offenen Bestellungen",
+    "markReady": "Fertig",
+    "allReady": "Alle fertig",
+    "orderNumber": "Bestellung #{{number}}",
+    "tableNumber": "Tisch {{number}}",
+    "waiting": "Wartet seit {{time}}",
+    "priority": {
+      "normal": "Normal",
+      "high": "Hoch",
+      "rush": "Eilig"
+    },
+    "itemStatus": {
+      "pending": "Ausstehend",
+      "preparing": "Wird zubereitet",
+      "ready": "Fertig"
+    }
+  },
+  "delivery": {
+    "title": "Ausgabe",
+    "readyOrders": "Fertige Bestellungen",
+    "noOrders": "Keine fertigen Bestellungen",
+    "markDelivered": "Ausgegeben",
+    "orderNumber": "Bestellung #{{number}}",
+    "tableNumber": "Tisch {{number}}",
+    "readySince": "Fertig seit {{time}}"
+  },
+  "pickup": {
+    "title": "Abholung",
+    "ready": "Fertig zur Abholung",
+    "orderNumber": "#{{number}}",
+    "noOrders": "Keine Bestellungen zur Abholung"
+  },
+  "sales": {
+    "title": "Tagesübersicht",
+    "totalRevenue": "Tagesumsatz",
+    "orderCount": "Bestellungen",
+    "averageOrder": "Ø Bestellwert",
+    "openOrders": "Offene Bestellungen",
+    "pendingItems": "Ausstehende Items",
+    "topProducts": "Top Produkte",
+    "hourlyRevenue": "Umsatz pro Stunde",
+    "paymentMethods": "Zahlungsarten",
+    "noData": "Noch keine Daten"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "device": "Gerät",
+    "deviceName": "Gerätename",
+    "organization": "Organisation",
+    "displayMode": "Display-Modus",
+    "changeMode": "Modus ändern",
+    "sound": "Ton",
+    "soundEnabled": "Ton aktiviert",
+    "soundDisabled": "Ton deaktiviert",
+    "language": "Sprache",
+    "german": "Deutsch",
+    "english": "English",
+    "theme": "Darstellung",
+    "lightMode": "Hell",
+    "darkMode": "Dunkel",
+    "connection": "Verbindung",
+    "serverStatus": "Server-Status",
+    "lastSync": "Letzte Synchronisation",
+    "logout": "Abmelden",
+    "logoutConfirm": "Möchten Sie dieses Gerät wirklich abmelden?",
+    "version": "Version"
+  },
+  "time": {
+    "now": "Gerade eben",
+    "minute": "{{count}} Minute",
+    "minute_plural": "{{count}} Minuten",
+    "hour": "{{count}} Stunde",
+    "hour_plural": "{{count}} Stunden"
+  },
+  "navigation": {
+    "pressSelectToChoose": "OK drücken zum Auswählen",
+    "pressBackToReturn": "Zurück drücken zum Zurückkehren",
+    "pressMenuForSettings": "Menü drücken für Einstellungen"
+  }
+}

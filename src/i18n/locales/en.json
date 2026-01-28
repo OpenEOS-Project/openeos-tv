@@ -1,0 +1,151 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "back": "Back",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "settings": "Settings",
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "connecting": "Connecting...",
+    "noData": "No data",
+    "refreshing": "Refreshing..."
+  },
+  "registration": {
+    "title": "Register Device",
+    "subtitle": "Scan the QR code with the admin app or enter the code in the web panel",
+    "deviceName": "Device Name",
+    "deviceNamePlaceholder": "e.g. Kitchen Display 1",
+    "organizationSlug": "Organization Slug",
+    "organizationSlugPlaceholder": "e.g. my-club",
+    "register": "Register",
+    "registering": "Registering...",
+    "scanQrCode": "Scan QR Code",
+    "orEnterCode": "or enter code",
+    "verificationCode": "Verification Code",
+    "waitingForVerification": "Waiting for verification...",
+    "verificationHint": "An administrator must confirm this device in the web panel",
+    "verified": "Device verified!",
+    "blocked": "Device was blocked",
+    "error": {
+      "invalidSlug": "Invalid organization slug",
+      "registrationFailed": "Registration failed",
+      "networkError": "Network error"
+    }
+  },
+  "displayModes": {
+    "title": "Select Display Mode",
+    "subtitle": "Choose what to show on this display",
+    "menu": {
+      "label": "Menu",
+      "description": "Shows products and categories"
+    },
+    "kitchen": {
+      "label": "Kitchen Display",
+      "description": "Shows new orders, mark items as ready"
+    },
+    "delivery": {
+      "label": "Delivery Display",
+      "description": "Shows ready orders, mark items as delivered"
+    },
+    "pickup": {
+      "label": "Pickup",
+      "description": "Large display of ready order numbers"
+    },
+    "sales": {
+      "label": "Sales Summary",
+      "description": "Daily revenue and statistics"
+    }
+  },
+  "menu": {
+    "title": "Menu",
+    "noProducts": "No products available",
+    "noCategories": "No categories available",
+    "outOfStock": "Out of stock"
+  },
+  "kitchen": {
+    "title": "Kitchen",
+    "newOrders": "New Orders",
+    "noOrders": "No open orders",
+    "markReady": "Ready",
+    "allReady": "All Ready",
+    "orderNumber": "Order #{{number}}",
+    "tableNumber": "Table {{number}}",
+    "waiting": "Waiting for {{time}}",
+    "priority": {
+      "normal": "Normal",
+      "high": "High",
+      "rush": "Rush"
+    },
+    "itemStatus": {
+      "pending": "Pending",
+      "preparing": "Preparing",
+      "ready": "Ready"
+    }
+  },
+  "delivery": {
+    "title": "Delivery",
+    "readyOrders": "Ready Orders",
+    "noOrders": "No ready orders",
+    "markDelivered": "Delivered",
+    "orderNumber": "Order #{{number}}",
+    "tableNumber": "Table {{number}}",
+    "readySince": "Ready since {{time}}"
+  },
+  "pickup": {
+    "title": "Pickup",
+    "ready": "Ready for Pickup",
+    "orderNumber": "#{{number}}",
+    "noOrders": "No orders for pickup"
+  },
+  "sales": {
+    "title": "Daily Overview",
+    "totalRevenue": "Daily Revenue",
+    "orderCount": "Orders",
+    "averageOrder": "Avg. Order Value",
+    "openOrders": "Open Orders",
+    "pendingItems": "Pending Items",
+    "topProducts": "Top Products",
+    "hourlyRevenue": "Hourly Revenue",
+    "paymentMethods": "Payment Methods",
+    "noData": "No data yet"
+  },
+  "settings": {
+    "title": "Settings",
+    "device": "Device",
+    "deviceName": "Device Name",
+    "organization": "Organization",
+    "displayMode": "Display Mode",
+    "changeMode": "Change Mode",
+    "sound": "Sound",
+    "soundEnabled": "Sound enabled",
+    "soundDisabled": "Sound disabled",
+    "language": "Language",
+    "german": "Deutsch",
+    "english": "English",
+    "theme": "Theme",
+    "lightMode": "Light",
+    "darkMode": "Dark",
+    "connection": "Connection",
+    "serverStatus": "Server Status",
+    "lastSync": "Last Sync",
+    "logout": "Logout",
+    "logoutConfirm": "Do you really want to logout this device?",
+    "version": "Version"
+  },
+  "time": {
+    "now": "Just now",
+    "minute": "{{count}} minute",
+    "minute_plural": "{{count}} minutes",
+    "hour": "{{count}} hour",
+    "hour_plural": "{{count}} hours"
+  },
+  "navigation": {
+    "pressSelectToChoose": "Press OK to select",
+    "pressBackToReturn": "Press Back to return",
+    "pressMenuForSettings": "Press Menu for settings"
+  }
+}
