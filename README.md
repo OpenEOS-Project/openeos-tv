@@ -166,4 +166,6 @@ export const API_CONFIG = {
 
 ## Lizenz
 
-AGPLv3
+Copyright (C) 2026 LUXCODE by Lukas Lukic-Spitznagel und Mitwirkende.
+
+Lizenziert unter der GNU Affero General Public License v3.0 oder (nach deiner Wahl) jeder späteren Version (`AGPL-3.0-or-later`), siehe [LICENSE](LICENSE) und [NOTICE](NOTICE).

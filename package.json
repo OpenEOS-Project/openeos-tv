@@ -2,6 +2,8 @@
   "name": "openeos-tv",
   "version": "1.0.0",
   "private": true,
+  "license": "AGPL-3.0-or-later",
+  "author": "LUXCODE by Lukas Lukic-Spitznagel",
   "scripts": {
     "android": "react-native run-android",
     "android:release": "cd android && ./gradlew assembleRelease",
